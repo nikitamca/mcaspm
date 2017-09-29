@@ -12,6 +12,7 @@ function genShortcode()
 {
 	echo "This is short code<br>";
 	echo "Hello<br>";
+	echo "Hello<br>";
 	echo "<input type='text' name='txt'/>";
 }
 add_shortcode('short','genShortcode');
